@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{06B7CD33-D60A-423C-82BF-5AFC0A42C2ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{549F492B-5F36-4165-AD91-9472CC881D72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "feature", "feature", "{B64DBF30-B1A1-4DAE-AAEC-CD813B20478E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cts", "cts", "{2E67169E-9225-4022-A738-434FE2BE3F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cts.project.Cts", "src\Project\Cts\Website\Cts.project.Cts.csproj", "{8341E8BB-60D3-483D-AC99-FA10C6695C92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8341E8BB-60D3-483D-AC99-FA10C6695C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8341E8BB-60D3-483D-AC99-FA10C6695C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8341E8BB-60D3-483D-AC99-FA10C6695C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8341E8BB-60D3-483D-AC99-FA10C6695C92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E67169E-9225-4022-A738-434FE2BE3F4D} = {06B7CD33-D60A-423C-82BF-5AFC0A42C2ED}
+		{8341E8BB-60D3-483D-AC99-FA10C6695C92} = {2E67169E-9225-4022-A738-434FE2BE3F4D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {1DADF31B-7271-42F5-A73C-0B6CE84C845C}
+	EndGlobalSection
+EndGlobal
